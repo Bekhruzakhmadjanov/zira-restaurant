@@ -120,8 +120,15 @@ p.second-slide-title {
     margin-bottom: 100px;
 }
 
+.second-slide-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
 img {
-    width: 232px;
+    width: 231px;
     height: 231px;
     border: 3px solid #3882F6;
     border-radius: 31px;
@@ -129,16 +136,22 @@ img {
 }
 
 .text {
-    width: 150px;
+    width: 140px;
     height: auto;
     text-align: center;
 }
 
-.second-slide-content {
+div.plov > .text{
+    width: 130px;
+    height: auto;
+    text-align: center;
+}
+
+.chicken-shawarma, .chicken-kebab, .uyghur-lagman, .plov {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    justify-content: space-evenly;
+    align-items: center;
 }
 
 /* ----------------- END SECOND SLIDE PART ----------------- */
