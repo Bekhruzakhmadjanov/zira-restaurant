@@ -1,2 +1,2 @@
 # zira-restaurant
-Landing page of restaurent to just give overall infromation about the place
+Landing page of restaurant to just give overall infromation about the place
